@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.conatiner{
+    min-height:  1000px;
+    background-color: lightcyan;
+    border: 8px solid #1d1e4c ;
+}
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.topp{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.topp h1{
+    text-transform: uppercase;
+    font-size :60px ;
+    color:#1d1e4c ;
+    font-weight: 700;
+}
+.topp h4{
+    font-size:  30px;
+    text-align: right;
+    color: #1d1e4c;
+}
+.pic{
+    margin-top: 60px;
+    height: 340px;
+    width: 300px;
+    border-radius: 45%;
+}
+.aboutt{
+    margin-top: 40px;
+}
+.aboutt h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size:  30px;
+    text-decoration: underline;
+    color: #1d1e4c
+}
+.aboutt p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.bio{
+    margin-top: 20px ;
+}
+.bio h3{
+    font-size: 20px;
+    color: #1d1e4c
+}
+ul{
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+footer{
+    margin: 20px;
+}
+footer p{
+    text-align: end;
+}
